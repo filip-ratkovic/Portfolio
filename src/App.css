@@ -258,7 +258,8 @@ body {
 
 
 .projectsContainer {
-  width: 100vw;
+  margin-top: 50px;
+  width: 98vw;
   display: flex;
   justify-content: center;
 }
@@ -277,7 +278,6 @@ body {
 .projects img {
   width: 100%;
   height: 100%;
-  z-index: 1;
 }
 
 .projectText {
@@ -323,3 +323,12 @@ line-height: 1.5em;
   width: 230px;
 } */
 
+#pngPhoto{
+  width: 200px;
+  height:auto;
+  z-index: 1;
+  position: absolute;
+  bottom: -25px;
+  left: -75px;
+  filter:drop-shadow(5px 5px 8px rgb(34, 34, 34,0.7))
+}
