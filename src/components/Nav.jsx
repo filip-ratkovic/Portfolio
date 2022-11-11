@@ -11,7 +11,9 @@ function Nav() {
 
 
     const handleHomeClick = event => {
-        if (homeActive) { }
+        if (homeActive) { 
+            
+        }
         else {
             setHomeActive(current => !current);
             setAboutActive(false)
