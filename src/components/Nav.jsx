@@ -11,8 +11,8 @@ function Nav() {
 
 
     const handleHomeClick = event => {
-        if (homeActive) { 
-            
+        if (homeActive) {
+
         }
         else {
             setHomeActive(current => !current);
@@ -68,7 +68,6 @@ function Nav() {
                 >Projects</p></Link>
                 <Link id="navLink" to="/contact"><p
                     className={` ${contactActive ? "active" : ""}`} onClick={handleContactClick}
-
                 >Contact</p></Link>
             </div>
 

@@ -12,8 +12,10 @@ function Home() {
                 <li><span>Filip Ratković</span></li>
             </ul>
             </div>
-            <p>Lorem ipsum dolor sit ametss, consectetur adipisicing elit. Consequatur consectetur voluptates vero provident neque molestiae velit ratione accusantium officiis repudiandae! Reiciendis temporibus similique quod vero tempore perferendis vitae sit explicabo.
-
+            <p>
+            Front end developer who write  
+            clean, elegant and efficient code. <br />
+            I'm from Serbia and open to work.
             </p>
             <button><h4>Hire me</h4></button>
         </div>

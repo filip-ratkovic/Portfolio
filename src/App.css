@@ -328,3 +328,54 @@ line-height: 1.5em;
   left: -75px;
   filter:drop-shadow(5px 5px 8px rgb(34, 34, 34,0.7))
 } */
+
+@media (max-width: 900px) {
+ .home{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+  .homeText {
+    margin-top: 10px;
+
+  width: 100%;
+ }
+ .homeImg{
+  width: 100%;
+ }
+
+ .navList {
+  display: none;
+ }
+
+ .dynamicText {
+  line-height: 95px;
+  overflow: hidden;
+  width: 100%;
+  height: 100px
+}
+
+.dynamicText li {
+  list-style-type: none;
+  font-size: 44px;
+  color: var(--secoundary);
+  animation: slide 12s steps(2) infinite;
+  position: relative;
+  top: 0;
+}
+@keyframes typing {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 90%;
+    margin: 0px -35px 0px 35px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+
+
+}
