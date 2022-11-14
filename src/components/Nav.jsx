@@ -66,9 +66,6 @@ function Nav() {
                 <Link id="navLink" to="/project"><p
                     className={` ${projectActive ? "active" : ""}`} onClick={handleProjectClick}
                 >Projects</p></Link>
-                <Link id="navLink" to="/contact"><p
-                    className={` ${contactActive ? "active" : ""}`} onClick={handleContactClick}
-                >Contact</p></Link>
             </div>
 
         </nav>
