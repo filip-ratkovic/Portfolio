@@ -23,11 +23,11 @@ body {
 }
 
 .nav {
-  width: 95vw;
+  width: 100%;
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  margin: 30px;
+  padding: 30px;
 }
 
 
@@ -102,7 +102,7 @@ body {
 
 .home {
   margin: 30px;
-  margin-top: 60px;
+  margin-top: 80px;
   display: flex;
   justify-content: space-between;
 }
@@ -235,8 +235,6 @@ body {
 
 .imgContainer img {
   position: absolute;
-  /* top: -50px;
-  left: -40px; */
   bottom: 0px;
   left: -40px;
   z-index: -1;
@@ -253,129 +251,4 @@ body {
   top: -90px;
   left: -10px;
   overflow-x: hidden;
-}
-
-
-.projectsContainer {
-  margin-top: 50px;
-  width: 98vw;
-  display: flex;
-  justify-content: center;
-}
-
-
-.projectPhoto{
-  width: 80%;
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-}
-
-.projects{
-  margin: 5px;
-  height: 65vh;
-  border-radius: 10px;
-  background-size: cover;
-  flex: 0.5;
-  transition:flex 1s ease-in-out;
-  border:solid black 3px;
-}
-
-.active{
-  flex: 3;
-}
-
-.projectText {
-  width: 30%;
-  margin: 60px;
-  display:flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.projectText h1 {
-  font-size:55px;
-  color: var(--dark);
-}
-
-.projectText p {
-line-height: 1.5em;
-}
-
-.projectText button {
-  width: 150px;
-  letter-spacing: 2px;
-  font-size: 20px;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  text-align: left;
-}
-
-.projectText button a{
-  text-decoration: none;
-  color: var(--light);
-}
-
-/* #pngPhoto{
-  width: 200px;
-  height:auto;
-  z-index: 1;
-  position: absolute;
-  bottom: -25px;
-  left: -75px;
-  filter:drop-shadow(5px 5px 8px rgb(34, 34, 34,0.7))
-} */
-
-@media (max-width: 900px) {
- .home{
-  display: flex;
-  flex-direction: column-reverse;
- }
-  .homeText {
-    margin-top: 10px;
-
-  width: 100%;
- }
- .homeImg{
-  width: 100%;
- }
-
- .navList {
-  display: none;
- }
-
- .dynamicText {
-  line-height: 95px;
-  overflow: hidden;
-  width: 100%;
-  height: 100px
-}
-
-.dynamicText li {
-  list-style-type: none;
-  font-size: 44px;
-  color: var(--secoundary);
-  animation: slide 12s steps(2) infinite;
-  position: relative;
-  top: 0;
-}
-@keyframes typing {
-  0% {
-    left: 0;
-  }
-
-  50% {
-    left: 90%;
-    margin: 0px -35px 0px 35px;
-  }
-
-  100% {
-    left: 0;
-  }
-}
-
-
 }
