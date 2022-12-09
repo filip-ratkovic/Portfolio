@@ -17,7 +17,11 @@ function Home() {
             clean, elegant and efficient code. <br />
             I'm from Serbia and open to work.
             </p>
-            <button><h4>Hire me</h4></button>
+            <button>
+            <a id="hireme" href="https://www.linkedin.com/in/filip-ratkovic-067a96233/" target="_blank">
+            <h4>HIRE ME</h4>    
+            </a>
+            </button>
         </div>
         <div className="homeImg">
             <div className="containerAnime">

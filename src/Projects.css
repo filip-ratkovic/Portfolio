@@ -23,6 +23,8 @@
     display: flex;
     align-items: center;
    justify-content: center;
+   border:5px solid black;
+
 }
 
 .projectText {
@@ -144,6 +146,7 @@ color: black;
 
     .homeImg {
         width: 100%;
+        margin: 5px;
     }
 
 
@@ -186,12 +189,12 @@ color: black;
 
     .projectPhoto {
         width: 100%;
-        margin: 10px;
+        margin: 5px;
     }
 
     .projectText {
         width: 100%;
-        margin: 10px;
+        margin: 5px;
     }
 
 
@@ -222,4 +225,11 @@ color: black;
     .projectPhoto{
         height: 220px;
     }
+}
+
+.explore {
+    transition: color .3s ease;
+}
+.explore:hover{
+color: var(--secoundary);
 }
