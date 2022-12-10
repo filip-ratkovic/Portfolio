@@ -1,10 +1,12 @@
 import React from 'react'
 import "./about.css"
+import photo from "./components/photos/photo.png";
 
 function About() {
   return (
     <main className="about-main">
-      <div className="about-text">
+     <div className="text-cont">
+     <div className="about-text">
         <h1>About me</h1>
         <p>I'm frontend developer from Novi Pazar, Serbia.
           I have serious passion and ambitions about developing.
@@ -19,18 +21,39 @@ function About() {
           to work with ambitious and and positive people on big projects.  
         </p>
       </div>
-      <div className="about-skills">
-        <p id="skill1">HTML</p>
-        <p id="skill2">CSS</p>
-        <p id="skill3">JavaScript</p>
-        <p id="skill4">TypeScript</p>
-        <p id="skill5">ReactJS</p>
-        <p id="skill6">React Native</p>
-        <p id="skill7">ES5/ES6</p>
-        <p id="skill8">JSON</p>
-        <p id="skill9">Github</p>
-
+      <div className="about-photo">
+        <img src={photo} alt="" />
       </div>
+     </div>
+
+      <div className="skills-cont">
+        <h1>Skills</h1>
+      </div>
+      {/* <div className="about-skills">
+        <p className="letter one" ><span>H</span> <span>T</span> <span>M</span> <span>L</span></p>
+        <p className="letter six" ><span>C</span> <span>S</span> <span>S</span></p>
+        <p className="letter three" ><span>J</span> <span>A</span> <span>V</span><span>A</span> <span>S</span> <span>C</span>
+        <span>R</span> <span>I</span> <span>P</span> <span>T</span>
+        </p>
+        <p className="letter four" ><span>T</span> <span>Y</span> <span>P</span><span>E</span> <span>S</span> <span>C</span>
+        <span>R</span> <span>I</span> <span>P</span> <span>T</span>
+        </p>
+        <p className="letter five" ><span>R</span> <span>E</span> <span>A</span><span>C</span> <span>T</span> <span>.</span>
+        <span>J</span> <span>S</span>
+        </p>
+        <p className="letter two" ><span>R</span> <span>E</span> <span>A</span><span>C</span> <span>T</span> <span> </span>
+        <span>N</span> <span>A</span> <span>T</span> <span>I</span> <span>V</span> <span>E</span>
+        </p>
+        <p className="letter seven" ><span>E</span> <span>S</span> <span>5</span> <span>/</span>
+        <span>E</span> <span>S</span> <span>6</span>
+        </p>
+        <p className="letter eight" ><span>J</span> <span>S</span> <span>O</span> <span>N</span></p>
+        <p className="letter nine" ><span>G</span> <span>I</span> <span>T</span></p>
+        <p className="letter then" ><span>G</span> <span>I</span> <span>T</span>
+        <span>H</span> <span>U</span> <span>B</span>
+        </p>
+
+      </div> */}
     </main>
   )
 }
