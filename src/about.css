@@ -8,28 +8,13 @@
     width: 30%;
     padding: 30px;
 }
-
-.about-text h1 {
-    color: var(--secoundary);
-    letter-spacing: 1px;
-    font-size: 48px;
-}
-
 .about-text p {
     margin-top: 15px;
     line-height: 1.4em;
     font-size: 20px;
     color: var(--primary);
 }
-
-.about-photo {
-    margin-top: 35px;
-}
-.about-photo img{
-    height: 450px;
-}
-
-
+/* 
 .about-skills {
     width: 450px;
     height: 400px;
@@ -37,15 +22,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 
 
 .letter span {
     display: inline-block;
-    font-size: 30px;
+    font-size: 48px;
     color: var(--secoundary);
     font-weight: bold;
+}
+.space {
+    display: inline-block;
+    width: 10px;
 }
 
 .letter span:hover {
@@ -72,53 +61,55 @@
         transform: scale(1.15, 0.85);
     }
 }
-/* 
-.one {
-    top: 0;
-    left:0  
+
+.about-info {
+    margin-top: 35px;
+    width: 50%;
+    display: flex;
+   flex-direction: column;
+   height: 90vh;
+}
+.about-info-wrapper {
+    width: 100%;
+    display: flex;
+    height: 40%;
+}
+.about-info-contact{
+    width: 50%;
+    border:solid 1px black;
 }
 
-.two {
-    top: 25%;
-    left:0  ;
+.about-info-social{
+    width: 50%;
+    border:solid 1px black;
 }
 
-.three {
-    top:50%;
-    left:0 ;
+.about-info-skills {
+    width: 100%;
+    border:solid 1px black;
+    height: 50%;
 }
 
-.four{
-    top: 75%;
-    left:0  ;
+.about-info-social h1 {
+    text-align: center;
+    color: var(--secoundary);
 }
 
-.five {
-    bottom: 0;
-    left:0  }
-
-.six {
-    top: 0;
-    right: 0;
+.about-info-social span {
+    font-size: 38px;
+}
+.social-cont img {
+    width: 30px;
 }
 
-.seven {
-    top: 25%;
-    right: 0;
+.social-cont {
+margin-left: 10px;
+display: flex;
+align-items: end;
 }
 
-.eight {
-    top: 50%;
-    right:0;
+.social-cont a {
+text-decoration: none;
+color: var(--primary);
+font-size: 0.9em;
 }
-
-.nine {
-    top: 75%;
-    right: 0;
-}
-
-.then {
-    bottom: 0;
-    right: 0;
-}
- */
