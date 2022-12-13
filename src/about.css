@@ -99,7 +99,7 @@
     font-size: 38px;
 }
 .social-cont img {
-    width: 30px;
+    width: 20px;
 }
 
 .social-cont {
@@ -111,5 +111,10 @@ align-items: end;
 .social-cont a {
 text-decoration: none;
 color: var(--primary);
-font-size: 0.9em;
+font-size: 0.85em;
+margin-left: 5px;
+}
+
+.social-cont a:hover {
+    color: var(--light);
 }

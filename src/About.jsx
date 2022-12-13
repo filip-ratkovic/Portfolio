@@ -1,6 +1,7 @@
 import React from 'react'
 import "./about.css"
 import linkedin from "./components/photos/linkedin.png";
+import github from "./components/photos/github.png";
 
 function About() {
   return (
@@ -37,8 +38,12 @@ function About() {
             <span>a</span>
             <span>l</span></h1>
             <div className="social-cont">
-              <img src={linkedin} alt="" />
+              <img src={linkedin} alt="linkedin logo" />
               <a href="https://www.linkedin.com/in/filip-ratkovic-067a96233/">www.linkedin.com/in/filip-ratkovic-067a96233/</a>
+            </div>
+            <div className="social-cont">
+              <img src={github} alt="github logo" />
+              <a href="https://www.github.com/filip-ratkovic">github.com/filip-ratkovic</a>
             </div>
           </div>
          </div>
