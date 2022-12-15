@@ -28,7 +28,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px 30px 20px 30px ;
-  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.3);
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.2);
 }
 
 
