@@ -35,7 +35,41 @@ function Projects() {
     }
     return (
         <main className="main">
-            <div className="projectsContainer">
+            {/* <div className="projectsContainer">
+                <div className="projectText">
+                    <h2>Project</h2>
+                    <h1>Commerce</h1>
+                    <h5>Lorem, ipsum dolor.
+                    </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus reprehenderit, officiis similique, ab ipsa consequuntur</p>
+                    <button><a className="explore" target="_blank" href="https://fr-ecommerce.netlify.app/">Explore ↗ </a> </button>
+                </div>
+                <div className="projectPhoto">
+                    <div className="projects"
+                        style={{ backgroundImage: `url(${shop})` }}>
+                    </div>
+                    <div className="smallImageCont">
+                        <div className="smallImgUp">
+                            <div className="clock">
+                                <p>{clock}</p>
+                            </div>
+                            <div className="blackSpace">
+                            </div>
+                            <div className="signal">
+                                <img src="https://img.icons8.com/ios-filled/50/null/high-connection.png" />
+                                <p>4G</p>
+                                <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
+                            </div>
+                        </div>
+                        <div className="smallImg" style={{ backgroundImage: `url(${shopM})` }}>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> */}
+
+<div className="projectsContainer">
                 <div className="projectText">
                     <h2>Project</h2>
                     <h1>Commerce</h1>

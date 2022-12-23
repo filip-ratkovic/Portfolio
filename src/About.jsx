@@ -1,6 +1,5 @@
 import React from 'react'
 import "./about.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function About() {
@@ -10,8 +9,7 @@ function About() {
       <div className="text-cont">
       <aside className="side-icons">
 
-      <FontAwesomeIcon icon={['fas', 'coffee']} />
-      </aside>
+                  </aside>
         <div className="about-text">
           <p className="letter" ><span>A</span> <span>b</span> <span>o</span> <span>u</span> <span>t</span>
             <span className="space"></span> <span>m</span> <span>e</span></p>
