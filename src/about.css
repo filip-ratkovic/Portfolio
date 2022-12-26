@@ -88,13 +88,14 @@
 
 .side-icons img {
     width: 35px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .side-icons img:hover {
     width: 36px;
-    margin-top: 29px;
+    margin-top: 49px;
 }
+
 
 .side-email {
     position:fixed;
@@ -114,6 +115,8 @@
     text-decoration: none;
     transform: rotate(90deg);
 width: 400px;
+display: flex;
+justify-content: center;
 }
 
 .side-email p{
@@ -126,5 +129,68 @@ width: 400px;
 
 
 .certificates{
-    
+    width: 50%;
+    margin: auto;
+}
+
+.c-info {
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 60px 0;
+}
+
+.c-text {
+    width: 60%;
+    z-index: 2;
+}
+
+.c-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.c-one {
+    padding: 20px;
+    width: 500px;
+    background-color: rgba(20, 207, 147, 0.6);
+    border-radius: 8px;
+    box-shadow: 4px 4px 14px rgba(20,207,147,0.3);
+    margin: 10px 0 ;
+}
+
+.c-frontend-list img {
+width: 15px;
+}
+
+.c-frontend-list ul li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.c-frontend-list {
+    margin-top: 10px;
+}
+
+.c-photo {
+    width: 100%;
+    z-index: 1;
+    transition: .6s ease all;
+}
+.c-photo img {
+    width: 150%;
+}
+
+.c-photo:hover{
+  transform: scale(1.2);
+  z-index: 3;
+}
+
+.c-title{
+    color: var(--light);
+}
+
+#c-date {
+    color: var(--light);
 }
