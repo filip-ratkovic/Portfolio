@@ -17,8 +17,8 @@ function About() {
           <a target="_blank" href="https://github.com/filip-ratkovic">
             <img src="https://img.icons8.com/ios-glyphs/30/null/github.png" alt="github logo" />
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/filip-ratkovic-067a96233/">
-            <img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="linkedin logo" />
+          <a target="_blank" href="https://www.instagram.com/filip_ratkovic/">
+            <img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram logo" />
           </a> 
         </aside>
         <div className="about-text">
@@ -42,7 +42,7 @@ function About() {
           <p>
           Here are a few technologies I've been lerned:
           </p>
-          <div className="about--skill-list">
+          <div className="about-skill-list">
             <ul>
               <li> <img src={arrow} alt="arrow" /> HTML5</li>
               <li> <img src={arrow} alt="arrow" /> CSS3</li>
@@ -56,7 +56,7 @@ function About() {
         </div>
         <aside className="side-email">
           <a href="mailto:filip28r@gmail.com">
-          <p>filip28r@gmail.com</p>
+          <p>⸻  filip28r@gmail.com   ⸻</p>
           </a>
         </aside>
       </div>
@@ -65,6 +65,12 @@ function About() {
       {/* <div>
 <iframe src="https://fr-ecommerce.netlify.app/" frameborder="0" className="cont"></iframe>
       </div> */}
+
+      <div className="certificates">
+      <p className="letter" ><span>C</span> <span>e</span> <span>r</span> <span>t</span> <span>i</span>
+             <span>f</span> <span>i</span> <span>c</span> <span>a</span> <span>t</span> <span>e</span> 
+             <span>s</span> </p>
+      </div>
 
     </main>
   )

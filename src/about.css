@@ -15,14 +15,22 @@
     color: rgb(99, 97, 97);
 }
 
-.about--skill-list{
+.about-skill-list{
     width: 40%;
-    margin-left: 15px;
 }
-.about--skill-list ul {
+.about-skill-list ul {
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
 }
-.about--skill-list img {
+.about-skill-list li {
+    padding-top: 10px;
+}
+
+.about-skill-list img {
     width: 15px;
 }
 
@@ -104,16 +112,19 @@
 .side-email a {
     color:var(--secoundary);
     text-decoration: none;
+    transform: rotate(90deg);
+width: 400px;
 }
 
 .side-email p{
-    transform: rotate(90deg);
     letter-spacing: 1.5px;
 }
 
 .side-email p:hover {
-    font-size: 19px;
     opacity: 0.7;
 }
 
 
+.certificates{
+    
+}
