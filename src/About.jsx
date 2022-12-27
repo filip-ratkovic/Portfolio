@@ -2,6 +2,8 @@ import React from 'react'
 import "./about.css"
 import arrow from "./components/photos/arrow.png"
 import cyrcleOne from "./components/photos/cyrcleOne.jpg"
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -12,16 +14,18 @@ function About() {
       <div className="text-cont">
         <aside className="side-icons">
         
-          <a target="_blank" href="https://www.linkedin.com/in/filip-ratkovic-067a96233/">
+          <a target="_blank" title="linkedin" href="https://www.linkedin.com/in/filip-ratkovic-067a96233/">
             <img src="https://img.icons8.com/color/48/null/linkedin-2--v1.png" alt="linkedin logo" />
           </a>
 
-          <a target="_blank" href="https://github.com/filip-ratkovic">
+          <a target="_blank" title="github" href="https://github.com/filip-ratkovic">
             <img src="https://img.icons8.com/ios-glyphs/30/null/github.png" alt="github logo" />
           </a>
-          <a target="_blank" href="https://www.instagram.com/filip_ratkovic/">
+          <a target="_blank" title="instagram" href="https://www.instagram.com/filip_ratkovic/">
             <img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram logo" />
           </a>
+
+          <Link to="/"><img title="back on home page" src="https://img.icons8.com/fluency/48/null/circled-left.png"/></Link>
         </aside>
         <div className="about-text">
           <p className="letter" ><span>A</span> <span>b</span> <span>o</span> <span>u</span> <span>t</span>
@@ -84,14 +88,14 @@ function About() {
             <p className="c-title" >RISC</p>
             <div className="c-one">
               <p>
-                Successfully completed training: First cycle of "IT Camp - Serbia 2022" course.
-                We learn:
+              Start second cyrcle of "IT Camp - Serbia 2022" course that cover React.
+              We learn:
               </p>
               <div className="c-frontend-list">
                 <ul>
-                  <li> <img src={arrow} alt="arrow" />Modern JavaScript (ES6+), CSS3 and HTML5,</li>
-                  <li> <img src={arrow} alt="arrow" /> Write cross-browser compatible code,</li>
-                  <li> <img src={arrow} alt="arrow" />Apply best practices for software development,</li>
+                  <li> <img src={arrow} alt="arrow" />More about javaScript framework React.js.</li>
+                  <li> <img src={arrow} alt="arrow" />Work on larger projects in team,</li>
+                  <li> <img src={arrow} alt="arrow" />Work on several projects alone wheare we </li>
                   <li> <img src={arrow} alt="arrow" /> Using version control system (GitHub).</li>
                 </ul>
               </div>
