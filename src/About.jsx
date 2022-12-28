@@ -79,46 +79,16 @@ function About() {
               <span>f</span> <span>i</span> <span>c</span> <span>a</span> <span>t</span> <span>e</span>
               <span>s</span> </p>
 
-        <div className="c-info">
-          <div className="c-text">
-            
-            <h2>
-              Frontend developer
-            </h2>
-            <p className="c-title" >RISC</p>
-            <div className="c-one">
-              <p>
-              Start second cyrcle of "IT Camp - Serbia 2022" course that cover React.
-              We learn:
-              </p>
-              <div className="c-frontend-list">
-                <ul>
-                  <li> <img src={arrow} alt="arrow" />More about javaScript framework React.js.</li>
-                  <li> <img src={arrow} alt="arrow" />Work on larger projects in team,</li>
-                  <li> <img src={arrow} alt="arrow" />Work on several projects alone wheare we </li>
-                  <li> <img src={arrow} alt="arrow" /> Using version control system (GitHub).</li>
-                </ul>
-              </div>
-            </div>
-              <p id="c-date">Oct 2021 - May 2022</p>
-            
-           
-          </div>
-          <div className="c-photo">
-            <img src={cyrcleOne} alt="certificate" />
-          </div>
-        </div>
-
 
         <div className="c-info">
           <div className="c-text">
             <h2>
-              REACT
+              FRONTEND DEVELOPER
             </h2>
             <p className="c-title" >RISC</p>
             <div className="c-one">
               <p>
-                Successfully completed training:  cycle of "IT Camp - Serbia 2022" course.
+                Successfully completed training: first cycle of "IT Camp - Serbia 2022" course.
                 We learn:
               </p>
               <div className="c-frontend-list">
@@ -132,6 +102,36 @@ function About() {
             </div>
             <p id="c-date">Oct 2021 - May 2022</p>
 
+           
+          </div>
+          <div className="c-photo">
+            <img src={cyrcleOne} alt="certificate" />
+          </div>
+        </div>
+
+
+        <div className="c-info">
+          <div className="c-text">
+            
+            <h2>
+              REACT
+            </h2>
+            <p className="c-title" >RISC</p>
+            <div className="c-one">
+              <p>
+              Start second cyrcle of "IT Camp - Serbia 2022" course that cover React.
+              We learn:
+              </p>
+              <div className="c-frontend-list">
+                <ul>
+                  <li> <img src={arrow} alt="arrow" />More about javaScript framework React.js.</li>
+                  <li> <img src={arrow} alt="arrow" />Work on larger projects in team,</li>
+                  <li> <img src={arrow} alt="arrow" />Work on several projects alone wheare we </li>
+                </ul>
+              </div>
+            </div>
+              <p id="c-date">Oct 2021 - May 2022</p>
+            
            
           </div>
           <div className="c-photo">

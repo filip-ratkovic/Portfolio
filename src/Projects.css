@@ -233,3 +233,9 @@ color: black;
 .explore:hover{
 color: var(--secoundary);
 }
+
+
+.big-screen{
+    width: 100%;
+    height: 100%;
+}
