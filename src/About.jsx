@@ -32,7 +32,7 @@ function About() {
             <span className="space"></span> <span>m</span> <span>e</span></p>
 
           <p>Hello! I'm frontend developer from Novi Pazar, Serbia.
-            My interest in web development started back in 2020 when i started course
+            My interest in web development started back in 2021 when i started course
             in <span className='text-important'>Centar NIT</span>.
             I have serious passion and ambitions about developing.
           </p>
@@ -126,7 +126,7 @@ function About() {
                 <ul>
                   <li> <img src={arrow} alt="arrow" />More about javaScript framework React.js.</li>
                   <li> <img src={arrow} alt="arrow" />Work on larger projects in team,</li>
-                  <li> <img src={arrow} alt="arrow" />Work on several projects alone wheare we </li>
+                  <li> <img src={arrow} alt="arrow" />Work on several projects alone. </li>
                 </ul>
               </div>
             </div>
