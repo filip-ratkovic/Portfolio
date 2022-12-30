@@ -83,7 +83,7 @@ function About() {
         <div className="c-info">
           <div className="c-text">
             <h2>
-              FRONTEND DEVELOPER
+              01. FRONTEND DEVELOPER
             </h2>
             <p className="c-title" >RISC</p>
             <div className="c-one">
@@ -114,7 +114,7 @@ function About() {
           <div className="c-text">
             
             <h2>
-              REACT
+           02.  REACT
             </h2>
             <p className="c-title" >RISC</p>
             <div className="c-one">
@@ -130,13 +130,13 @@ function About() {
                 </ul>
               </div>
             </div>
-              <p id="c-date">Oct 2021 - May 2022</p>
+              <p id="c-date">August 2022 -</p>
             
            
           </div>
-          <div className="c-photo">
+          {/* <div className="c-photo">
             <img src={cyrcleOne} alt="certificate" />
-          </div>
+          </div> */}
         </div>
       </div>
 
