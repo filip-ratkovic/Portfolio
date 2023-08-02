@@ -1,0 +1,49 @@
+.preloader{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 55;
+    overflow: hidden;
+}
+
+.preloader .text-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 800;
+    overflow: hidden;
+    color: #fff;
+    position: relative;
+}
+
+.preloader-text {
+    transform: translateY(0);
+    transition: all 1s ease;
+}
+
+.active1, .active2, .active3 {
+    transform: translateY(100px);
+}
+.active1 {
+    transition-delay: .2s;
+}
+.active2 {
+    transition-delay: .4s;
+}
+.active3 {
+    transition-delay: .6s;
+}
+
+
+
