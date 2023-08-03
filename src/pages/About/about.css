@@ -1,0 +1,251 @@
+.about-main {
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.text-cont {
+    margin-block: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text {
+    width: 70%;
+    padding: 0 30px;
+}
+.about-text p {
+    margin-top: 25px;
+    line-height: 1.4em;
+    font-size: 20px;
+    color: rgb(99, 97, 97);
+}
+
+
+.about-skill-list{
+    width: 40%;
+}
+.about-skill-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 100px;
+}
+.about-skill-list li {
+    padding-top: 10px;
+}
+
+.about-skill-list img {
+    width: 15px;
+}
+
+.text-important{
+    color:#14cf93;
+}
+
+.letter span {
+    display: inline-block;
+    font-size: 54px;
+    color: #14cf93;
+    font-weight: bold;
+}
+.space {
+    display: inline-block;
+    width: 10px;
+}
+
+.letter span:hover {
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+    20%,
+    50%,
+    80%,
+    to {
+        transform: scale(1, 1);
+    }
+    40% {
+        transform: scale(1.75, 0.65);
+    }
+    45% {
+        transform: scale(1.75, 0.65);
+    }
+    70% {
+        transform: scale(1.25, 0.75);
+    }
+    90% {
+        transform: scale(1.15, 0.85);
+    }
+}
+
+.side-icons {
+    width: 15%;
+    height: 90vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-icons img {
+    width: 35px;
+    margin-block: 25px;
+}
+
+.side-icons img:hover {
+    width: 37px;
+    margin-block: 24px;
+}
+
+.side-icons p {
+    transform: rotate(90deg);
+    color: #14cf93;
+    margin-block: 25px;
+}
+
+
+.side-email {
+    width: 15%;
+    height: 90vh;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.side-email a {
+    color:#14cf93;
+    text-decoration: none;
+    transform: rotate(90deg);
+width: 400px;
+display: flex;
+justify-content: center;
+}
+
+.side-email p{
+    letter-spacing: 1.5px;
+}
+
+.side-email p:hover {
+    opacity: 0.7;
+}
+
+
+.certificates{
+    width: 70%;
+    margin: auto;
+    padding: 0 30px;
+    margin-top: 60px;
+}
+
+
+.c-card-cont {
+    width: 100%;
+    display: flex;
+    margin: 75px 0 30px 0;
+}
+
+.c-info-cont {
+    width: 100%; 
+    position: relative;
+}
+
+.c-number {
+    z-index: -1;
+    color: rgba(0, 0, 0, .1);
+    position: absolute;
+    top: -30px;
+    font-size: 94px;
+    transition: all .4s ease-in-out;
+}
+
+.c-info-cont:hover .c-number {
+    z-index: 1;
+    top: -90px;
+    color: rgba(0, 0, 0, .65);
+}
+
+.c-btn {
+    color: #14cf93;
+    background-color: transparent;    
+    padding: 30px 20px 10px 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.c-btn:hover {
+    opacity: .5;
+}
+
+
+
+
+.c-one {
+    padding: 20px;
+    width: 100%;
+    border-radius: 8px;
+    margin: 10px 0 ;
+}
+
+.c-frontend-list img {
+width: 15px;
+}
+
+.c-frontend-list ul li {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+.c-frontend-list {
+    margin-top: 10px;
+}
+
+.c-title{
+    color: grey;
+}
+
+.c-img-cont {
+    width: 50%; 
+}
+
+.c-img-cont img {
+    width: 90%;
+}
+
+
+
+
+@media  (max-width:800px) {
+    body {
+        overflow-x: hidden;
+    }
+   .side-email, .side-icons {
+    display: none;
+   }
+   .about-skill-list ul {
+    width: 100%;
+    height: 120px;
+   }
+
+.about-text {
+    width: 100%;
+}
+   .certificates{
+    width: 90%;
+   }
+   .c-one {
+    width: 20em;
+   }
+   
+   .c-photo img{
+    width: 100%;
+   }
+   
+}

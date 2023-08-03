@@ -1,0 +1,249 @@
+.main-cont{
+    width: 100%;
+}
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.letter-cover {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 100px 0 50px 0;
+}
+
+.projectPhoto {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.projects {
+    margin: 5px;
+    width:75%;
+    height: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   border:5px solid black;
+
+}
+
+.projectText {
+    width: 25%;
+    margin: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.projectText h1 {
+    font-size: 55px;
+    color: var(--dark);
+}
+
+.projectText p {
+    line-height: 1.5em;
+}
+
+.projectText button {
+    width: 150px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-align: left;
+}
+
+.projectText button a {
+    text-decoration: none;
+    color: var(--light);
+}
+
+
+.smallImageCont {
+    width: 220px;
+    height: 100%;
+    border:5px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.smallImg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 10px 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.smallImgUp {
+    height: 6%;
+    width: 100%;
+    border-radius:20px 20px 0 0;
+display: flex;
+justify-content: space-between;
+}
+.clock {
+    width: 25%;
+}
+
+.blackSpace{
+    width: 50%;
+    height: 40%;
+    background-color: black;
+    border-radius:0 0 20px 20px ;
+}
+.clock p {
+    font-size: 12px;
+    color: black;
+    padding: 5px 5px 0 5px;
+}
+
+.signal {
+    width: 25%;
+    display: flex;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.signal img {
+width: 10px;
+height: 10px;
+color: black;
+}
+.signal p {
+    font-size: 10px;
+}
+
+
+
+
+/* #pngPhoto{
+    width: 200px;
+    height:auto;
+    z-index: 1;
+    position: absolute;
+    bottom: -25px;
+    left: -75px;
+    filter:drop-shadow(5px 5px 8px rgb(34, 34, 34,0.7))
+  } */
+
+@media (max-width: 900px) {
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .homeText {
+        margin-top: 10px;
+
+        width: 100%;
+    }
+
+    .homeImg {
+        width: 100%;
+        margin: 5px;
+    }
+
+
+
+    .dynamicText {
+        line-height: 95px;
+        overflow: hidden;
+        width: 100%;
+        height: 100px
+    }
+
+    .dynamicText li {
+        list-style-type: none;
+        font-size: 44px;
+        color: var(--secoundary);
+        animation: slide 12s steps(2) infinite;
+        position: relative;
+        top: 0;
+    }
+
+    @keyframes typing {
+        0% {
+            left: 0;
+        }
+
+        50% {
+            left: 90%;
+            margin: 0px -35px 0px 35px;
+        }
+
+        100% {
+            left: 0;
+        }
+    }
+
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectPhoto {
+        width: 99%;
+        margin: 5px;
+    }
+
+    .projectText {
+        width: 100%;
+        margin: 5px;
+    }
+
+
+    .projectsContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .smallImageCont{
+        width: 30%;
+    }
+
+    .clock p {
+        font-size: 8px;
+    }
+
+    .signal p {
+        font-size: 5px;
+
+    }
+    .signal img{
+        width: 5px;
+        height: 5px;
+    }
+    
+}
+
+@media  (max-width:650px) {
+    .projectPhoto{
+        height: 220px;
+    }
+}
+
+.explore {
+    transition: color .3s ease;
+}
+.explore:hover{
+color: var(--secoundary);
+}
+
+
+.big-screen{
+    width: 100%;
+    height: 100%;
+}

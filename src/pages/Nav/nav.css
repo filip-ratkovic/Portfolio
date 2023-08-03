@@ -3,13 +3,12 @@ nav {
     height: 70px;
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 5px 50px;
     position: sticky;
     top: 0;
     background-color: transparent;
     transition: all .3s ease;
     transform: translateY(-100px);
-    transition: transform .5s ease;
 }
 .nav-move-active {
     transform: translateY(0px);
@@ -17,12 +16,20 @@ nav {
 .nav-active {
     background-color: white;
     box-shadow: 6px 0px 16px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+.nav-active a {
+    color: black;
 }
 
 .nav-name {
     width: 30%;
     display: flex;
     align-items: center;
+}
+.nav-name a {
+    cursor: pointer;   
 }
 
 .nav-links {
@@ -34,8 +41,10 @@ align-items: center;
 color: white;
 font-weight: 600;
 font-size: 18px;
+list-style-type: none;
 }
 
-.nav-links p {
+.nav-links a {
     margin-right: 10px;
+    cursor: pointer;
 }

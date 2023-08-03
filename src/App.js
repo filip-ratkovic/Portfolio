@@ -3,7 +3,7 @@ import Home from "./pages/Home/Home";
 import Layout from "./containers/Layout";
 import "./App.css"
 import PreLoader from "./pages/Preloader/PreLoader";
-import AboutMe from "./pages/AboutMe/AboutMe";
+import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects";
 
 function App() {
@@ -12,9 +12,10 @@ function App() {
  <PreLoader/>
  <Layout>
       <Home />
-      <AboutMe/>
+      <About/>
       <Projects/>
-    </Layout></>
+    </Layout>
+    </>
   );
 }
 

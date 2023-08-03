@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./home.css"
-import portret from "../../slike/portret.jpg"
+import portret from "../../slike/Portret.png"
 import { Button } from '@mui/material'
 
 function Home() {
@@ -52,7 +52,7 @@ function Home() {
         </div>
         </div>
           <div className={`home-img ${homeActive ? "img-active" : ""}`} style={{backgroundImage:`url(https://images.unsplash.com/photo-1514929781313-76fcbb2136b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80)`}}>
-                      {/* <div className="home-img" style={{backgroundImage:`url(${portret})`}}> */}
+                      {/* <div className={`home-img ${homeActive ? "img-active" : ""}`} style={{backgroundImage:`url(${portret})`}}> */}
 
           </div>
       </div>
