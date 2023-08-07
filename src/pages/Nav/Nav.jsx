@@ -87,7 +87,7 @@ const handleProjectsClick = () => {
           }}
           smooth={true}
           spy={true}
-          offset={50}
+          offset={-50}
           duration={500}
           className={`${aboutActive ? "link-active" : ""}`}
         >
@@ -98,22 +98,12 @@ const handleProjectsClick = () => {
           to="projects"
           onClick={handleProjectsClick}
           smooth={true}
-          offset={50}
+          offset={-50}
           spy={true}
           duration={500}
         >
           Projects
         </Link>
-        {/* <Link
-          className={`${linkActive ? "link-active" : ""}`}
-          to="contact"
-          onClick={handleClick}
-          smooth={true}
-          offset={50}
-          duration={500}
-        >
-          Contact
-        </Link> */}
       </div>
     </nav>
   );

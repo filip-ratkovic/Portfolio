@@ -91,9 +91,10 @@ function Projects() {
                     >Explore ↗ </a> </button>
                 </div>
                 <div className="projectPhoto">
-                    <div className="projects"
+                    {/* <div className="projects"
                         style={{ backgroundImage: `url(${movie})` }}>
-                    </div>
+                    </div> */}
+                    <iframe src="https://fr-moviedb.netlify.app/" className='projects'></iframe>
                     <div className="smallImageCont">
                         <div className="smallImgUp">
                             <div className="clock">
@@ -107,8 +108,8 @@ function Projects() {
                                 <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
                             </div>
                         </div>
-                        <div className="smallImg" style={{ backgroundImage: `url(${movieM})` }}>
-                        </div>
+                        <iframe src="https://fr-moviedb.netlify.app/" className='smallImg'></iframe>
+
                     </div>
 
 
@@ -118,6 +119,9 @@ function Projects() {
             <br />
             <hr />
 
+            <div>
+            <iframe src="https://fr-moviedb.netlify.app/" style={{width:"400px", height:"400px"}}></iframe>
+            </div>
         </main>
     )
 }
