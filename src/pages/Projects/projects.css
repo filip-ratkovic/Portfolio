@@ -5,6 +5,8 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 75vh;
+    padding-block: 20px;
 }
 
 .letter-cover {
@@ -16,7 +18,7 @@
 
 .projectPhoto {
     width: 100%;
-    height: 65vh;
+    height: 100%;
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
@@ -24,7 +26,7 @@
 
 .projects {
     margin: 5px;
-    width:75%;
+    width:70%;
     height: 100%;
     border-radius: 10px;
     background-size: cover;
@@ -37,10 +39,11 @@
 
 .projectText {
     width: 25%;
-    margin: 60px 30px;
+    margin: 30px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    height: 100%;
 }
 
 .projectText h1 {
@@ -71,7 +74,7 @@
 
 
 .smallImageCont {
-    width: 220px;
+    width: 300px;
     height: 100%;
     border:5px solid black;
     border-radius: 20px;
@@ -127,7 +130,9 @@ color: black;
     font-size: 10px;
 }
 
-
+.project-description {
+    margin-bottom: 20px;
+}
 
 
 /* #pngPhoto{
