@@ -39,28 +39,32 @@ function Projects() {
       </div>
       <div className="projectsContainer">
         <div className="projectText">
-          <h2>Project</h2>
-          <h1>Commerce</h1>
-          <h5>Furniture site.</h5>
-          <p>
-            I use api for that project, where i create web shop for selling
-            furniture.
+          <h1>Ad app</h1>
+          <h3 style={{ color: "#93a0a3", marginBottom: "20px" }}>
+            React, Redux, Firebase, Formik, Yup, Mui{" "}
+          </h3>
+          <p className="project-description">
+            Developed an advertising website using React and Redux for state
+            management, Firebase for backend services, and integrated Formik and
+            Yup for form handling. Utilized Material-UI (Mui) for designing a
+            modern and intuitive user interface.
           </p>
           <button>
             <a
-              className="explore"
               target="_blank"
-              href="https://fr-ecommerce.netlify.app/"
+              href="https://fr-oglasi.netlify.app/"
+              className="explore"
             >
-              Explore ↗{" "}
+              Go to Website ↗{" "}
             </a>{" "}
           </button>
         </div>
         <div className="projectPhoto">
-          <div
+          <iframe
+            src="https://fr-oglasi.netlify.app/"
             className="projects"
-            style={{ backgroundImage: `url(${shop})` }}
-          ></div>
+            title="Movie DB"
+          ></iframe>
           <div className="smallImageCont">
             <div className="smallImgUp">
               <div className="clock">
@@ -73,10 +77,11 @@ function Projects() {
                 <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
               </div>
             </div>
-            <div
+            <iframe
+              src="https://fr-oglasi.netlify.app/"
               className="smallImg"
-              style={{ backgroundImage: `url(${shopM})` }}
-            ></div>
+              title="Movie DB mobile"
+            ></iframe>
           </div>
         </div>
       </div>
@@ -87,7 +92,9 @@ function Projects() {
       <div className="projectsContainer">
         <div className="projectText">
           <h1>Movie DB</h1>
-          <h3 style={{color:"#93a0a3", marginBottom:"20px"}}>React, Mui, Axios, Swiper.js</h3>
+          <h3 style={{ color: "#93a0a3", marginBottom: "20px" }}>
+            React, Mui, Axios, Swiper.js
+          </h3>
           <p className="project-description">
             Developed a dynamic movie database website by integrating TMDB APIs
             for data retrieval. Implemented Swiper.js to enhance the user
@@ -107,7 +114,7 @@ function Projects() {
           <iframe
             src="https://fr-moviedb.netlify.app/"
             className="projects"
-            title="Movie DB"
+            title="Ads app"
           ></iframe>
           <div className="smallImageCont">
             <div className="smallImgUp">
@@ -124,22 +131,14 @@ function Projects() {
             <iframe
               src="https://fr-moviedb.netlify.app/"
               className="smallImg"
-              title="Movie DB mobile"
-
-            ></iframe>
+              title="Ads app mobile"
+              ></iframe>
           </div>
         </div>
       </div>
 
       <br />
       <hr />
-
-      <div>
-        <iframe
-          src="https://fr-moviedb.netlify.app/"
-          style={{ width: "400px", height: "400px" }}
-        ></iframe>
-      </div>
     </main>
   );
 }

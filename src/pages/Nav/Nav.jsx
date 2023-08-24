@@ -98,7 +98,7 @@ const handleProjectsClick = () => {
           to="projects"
           onClick={handleProjectsClick}
           smooth={true}
-          offset={-50}
+          offset={0}
           spy={true}
           duration={500}
         >

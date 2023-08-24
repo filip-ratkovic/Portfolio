@@ -145,6 +145,49 @@ color: black;
     filter:drop-shadow(5px 5px 8px rgb(34, 34, 34,0.7))
   } */
 
+  @media (max-width: 1200px) {
+    .projectsContainer {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .projectText {
+        width: 100%;
+        padding: 0 20px;
+        margin: 20px 0;
+    }
+    
+    .projectPhoto {
+        width: 100%;
+        padding: 0 20px;
+        height: 75vh;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .projectPhoto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 20px;
+        height: 100%;
+    }
+
+    .projects {
+        width: 100%;
+        height: 75vh;
+    }
+
+    .smallImageCont {
+        width: 50%;
+        min-width: 350px;
+        height: 80vh;
+        margin-top: 30px;
+        margin-inline : auto;
+    }
+  }
+
 @media (max-width: 900px) {
     .home {
         display: flex;
@@ -195,29 +238,7 @@ color: black;
         }
     }
 
-    .projectsContainer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .projectPhoto {
-        width: 99%;
-        margin: 5px;
-    }
-
-    .projectText {
-        width: 100%;
-        margin: 5px;
-    }
-
-
-    .projectsContainer{
-        display: flex;
-        flex-direction: column;
-    }
-    .smallImageCont{
-        width: 30%;
-    }
+    
 
     .clock p {
         font-size: 8px;
@@ -233,10 +254,14 @@ color: black;
     }
     
 }
-
-@media  (max-width:650px) {
-    .projectPhoto{
-        height: 220px;
+@media  (max-width:720px) {
+    .projects {
+        height: 45vh;
+    }
+}
+@media  (max-width:450px) {
+    .projects {
+        height: 30vh;
     }
 }
 

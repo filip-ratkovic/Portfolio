@@ -48,3 +48,18 @@ list-style-type: none;
     margin-right: 10px;
     cursor: pointer;
 }
+
+@media (max-width:600px) {
+    .nav-name {
+        color: white;
+        width: 40%;
+        font-size: 14px;
+      }
+  
+      .nav-links {
+        width: 50%;
+      }
+      nav {
+        padding: 5px 10px;
+      }
+}

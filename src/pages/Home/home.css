@@ -41,17 +41,6 @@
     display: block;
 }
   
-  /* @keyframes textAnimation {
-    0% {
-      left: -400px;
-      overflow: hidden;
-    }
-  
-    100% {
-      left: 0px;
-    }
-  } */
-  
   
   .home-text p {
     line-height: 2em;
@@ -108,3 +97,31 @@
     }
   }
   
+
+  @media (max-width : 1200px) {
+    .home-text-wrapper {
+      padding: 40px;
+      width: 60%;
+    }
+  }
+
+  @media (max-width : 900px) {
+    .home-container {
+flex-direction: column-reverse;
+height: 100%;      
+    }
+
+    .home-text-wrapper {
+      width: 100%;
+      margin:0;
+    } 
+    .home-text {
+      margin-top: 0;
+    }
+    .home-img {
+      width: 100%;
+      min-height: 400px;
+    }
+   
+
+  }
