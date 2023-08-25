@@ -256,9 +256,6 @@ color: var(--secoundary);
 }
 
 @media (max-width:600px) {
-    .smallImageCont {
-      height: 550px;
-    }
     .projectText h1 {
         font-size: 45px;
     }
