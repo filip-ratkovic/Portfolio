@@ -49,6 +49,12 @@ list-style-type: none;
     cursor: pointer;
 }
 
+@media (max-width:900px) {
+    .nav-name {
+        color: white;
+      }
+}
+
 @media (max-width:600px) {
     .nav-name {
         color: white;
@@ -63,3 +69,4 @@ list-style-type: none;
         padding: 5px 10px;
       }
 }
+

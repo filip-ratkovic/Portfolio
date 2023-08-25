@@ -1,12 +1,10 @@
 import { React, useState } from "react";
-import cattle from "../../slike/cattle.png";
-import avengers from "../../slike/avengers.png";
-import movie from "../../slike/movie.png";
-import cattleM from "../../slike/cattleM.jpg";
-import movieM from "../../slike/movieM.jpg";
-import shop from "../../slike/shop.png";
-import shopM from "../../slike/shopM.jpg";
+import movie from "../../slike/movie.png"
+import movieM from "../../slike/movieM.JPG"
+import oglasi from "../../slike/oglasi.png"
+import oglasiM from "../../slike/oglasiM.JPG"
 import "./projects.css";
+
 
 function Projects() {
   const [leftActive, setLeftActive] = useState(true);
@@ -37,11 +35,12 @@ function Projects() {
           <span>e</span> <span>c</span> <span>t</span> <span>s</span>
         </p>
       </div>
-      <div className="projectsContainer">
+
+      <div className="projectsContainer" style={{alignItems:"center"}}>
         <div className="projectText">
           <h1>Ad app</h1>
           <h3 style={{ color: "#93a0a3", marginBottom: "20px" }}>
-            React, Redux, Firebase, Formik, Yup, Mui{" "}
+            React, Redux, Firebase, Formik, Yup, Mui
           </h3>
           <p className="project-description">
             Developed an advertising website using React and Redux for state
@@ -55,16 +54,17 @@ function Projects() {
               href="https://fr-oglasi.netlify.app/"
               className="explore"
             >
-              Go to Website ↗{" "}
-            </a>{" "}
+              Go to Website ↗
+            </a>
           </button>
         </div>
         <div className="projectPhoto">
-          <iframe
-            src="https://fr-oglasi.netlify.app/"
-            className="projects"
-            title="Movie DB"
-          ></iframe>
+        <div             
+              className="smallImg"
+            >
+              <img src={oglasi} alt="Ads big screen"  style={{width:"100%", objectFit:"contain", borderRadius:"8px",
+            border:"3px solid black"}}/>
+            </div>
           <div className="smallImageCont">
             <div className="smallImgUp">
               <div className="clock">
@@ -77,20 +77,20 @@ function Projects() {
                 <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
               </div>
             </div>
-            <iframe
-              src="https://fr-oglasi.netlify.app/"
+            <div             
               className="smallImg"
-              title="Movie DB mobile"
-            ></iframe>
+              style={{height:"100%"}}
+            >
+              <img src={oglasiM} alt="Ads mobile screen" style={{ maxHeight:"95%", width:"100%", borderRadius:" 0 0 15px 15px"}} />
+            </div>
           </div>
         </div>
       </div>
-
       <br />
       <hr />
 
-      <div className="projectsContainer">
-        <div className="projectText">
+      <div className="projectsContainer" style={{alignItems:"center"}}>
+      <div className="projectText">
           <h1>Movie DB</h1>
           <h3 style={{ color: "#93a0a3", marginBottom: "20px" }}>
             React, Mui, Axios, Swiper.js
@@ -106,16 +106,17 @@ function Projects() {
               href="https://fr-moviedb.netlify.app/"
               className="explore"
             >
-              Go to Website ↗{" "}
-            </a>{" "}
+              Go to Website ↗
+            </a>
           </button>
         </div>
         <div className="projectPhoto">
-          <iframe
-            src="https://fr-moviedb.netlify.app/"
-            className="projects"
-            title="Ads app"
-          ></iframe>
+        <div             
+              className="smallImg"
+            >
+              <img src={movie} alt="Movie big screen"  style={{width:"100%", objectFit:"contain", borderRadius:"8px",
+            border:"3px solid black"}}/>
+            </div>
           <div className="smallImageCont">
             <div className="smallImgUp">
               <div className="clock">
@@ -128,17 +129,16 @@ function Projects() {
                 <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
               </div>
             </div>
-            <iframe
-              src="https://fr-moviedb.netlify.app/"
+            <div             
               className="smallImg"
-              title="Ads app mobile"
-              ></iframe>
+              style={{height:"100%"}}
+            >
+              <img src={movieM} alt="Movie mobile screen" style={{ maxHeight:"95%", width:"100%", borderRadius:" 0 0 15px 15px"}} />
+            </div>
           </div>
         </div>
       </div>
 
-      <br />
-      <hr />
     </main>
   );
 }

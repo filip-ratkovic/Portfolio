@@ -120,8 +120,16 @@ height: 100%;
     }
     .home-img {
       width: 100%;
-      min-height: 400px;
+      height: 500px;
+      background-position:top;
     }
-   
+  }
 
+  @media (max-width:600px) {
+    #home-text-move {
+      font-size: 40px;
+    }
+    .static-text {
+      font-size: 50px;
+  }
   }
