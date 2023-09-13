@@ -3,6 +3,8 @@ import movie from "../../slike/movie.png"
 import movieM from "../../slike/movieM.JPG"
 import oglasi from "../../slike/oglasi.png"
 import oglasiM from "../../slike/oglasiM.JPG"
+import tsShop from "../../slike/tsShop.jpg"
+import tsShopM from "../../slike/tsShopM.JPG"
 import "./projects.css";
 
 
@@ -138,7 +140,56 @@ function Projects() {
           </div>
         </div>
       </div>
+      <br />
+      <hr />
 
+      <div className="projectsContainer" style={{alignItems:"center"}}>
+      <div className="projectText">
+          <h1>Ts Store</h1>
+          <h3 style={{ color: "#93a0a3", marginBottom: "20px" }}>
+            React, TypeScript, Bootstrap
+          </h3>
+          <p className="project-description">
+          Created a responsive store website featuring TypeScript and React, with Bootstrap for styling.
+          </p>
+          <button>
+            <a
+              target="_blank"
+              href="https://fr-tsstore.netlify.app"
+              className="explore"
+            >
+              Go to Website ↗
+            </a>
+          </button>
+        </div>
+        <div className="projectPhoto">
+        <div             
+              className="smallImg"
+            >
+              <img src={tsShop} alt="Ts shop big screen"  style={{width:"100%", objectFit:"contain", borderRadius:"8px",
+            border:"3px solid black"}}/>
+            </div>
+          <div className="smallImageCont">
+            <div className="smallImgUp">
+              <div className="clock">
+                <p>{clock}</p>
+              </div>
+              <div className="blackSpace"></div>
+              <div className="signal">
+                <img src="https://img.icons8.com/ios-filled/50/null/high-connection.png" />
+                <p>4G</p>
+                <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
+              </div>
+            </div>
+            <div             
+              className="smallImg"
+              style={{height:"100%"}}
+            >
+              <img src={tsShopM} alt="Ts shop mobile screen" style={{ maxHeight:"95%", width:"100%", borderRadius:" 0 0 15px 15px"}} />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
