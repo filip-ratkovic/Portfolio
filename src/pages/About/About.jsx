@@ -67,7 +67,7 @@ function About() {
               </li>
             </ul>
           </div>
-          <p style={{cursor:'pointer'}}  onClick={downloadFile}><span className='text-important'>Download CV</span></p>
+          <p style={{cursor:'pointer'}}  onClick={downloadFile}><span className='text-important'>Download my CV</span></p>
 
         </div>
         <aside className="side-email">
