@@ -53,6 +53,16 @@ function Projects() {
           <button>
             <a
               target="_blank"
+              href="https://github.com/filip-ratkovic/Oglasi"
+              className="explore"
+            >
+              <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/github.png" alt="githubad"/>
+              
+            </a>
+          </button>
+          <button>
+            <a
+              target="_blank"
               href="https://fr-oglasi.netlify.app/"
               className="explore"
             >
@@ -102,6 +112,16 @@ function Projects() {
             for data retrieval. Implemented Swiper.js to enhance the user
             interface and create interactive content presentation.
           </p>
+          <button>
+            <a
+              target="_blank"
+              href="https://github.com/filip-ratkovic/Movie-db"
+              className="explore"
+            >
+              <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/github.png" alt="github movie"/>
+              
+            </a>
+          </button>
           <button>
             <a
               target="_blank"
@@ -155,6 +175,16 @@ function Projects() {
           <button>
             <a
               target="_blank"
+              href="https://github.com/filip-ratkovic/ts-ecommerce"
+              className="explore"
+            >
+              <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/github.png" alt="github Ts store"/>
+
+            </a>
+          </button>
+          <button>
+            <a
+              target="_blank"
               href="https://fr-tsstore.netlify.app"
               className="explore"
             >
@@ -176,9 +206,9 @@ function Projects() {
               </div>
               <div className="blackSpace"></div>
               <div className="signal">
-                <img src="https://img.icons8.com/ios-filled/50/null/high-connection.png" />
+                <img src="https://img.icons8.com/ios-filled/50/null/high-connection.png" alt="" />
                 <p>4G</p>
-                <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png" />
+                <img src="https://img.icons8.com/ios-glyphs/30/null/full-battery.png"  alt=""/>
               </div>
             </div>
             <div             
